@@ -1,14 +1,94 @@
 #English version
+# Program carried out as part of a Master 2 internship.
+Author: Antony Frackowiak
+Master 2 in Cosmology at the Claude Bernard Lyon 1 University.
+
+**Alcubierre** 
+The objective of this
+
+## Table of contents
+
+- [Installation](#installation)
+- [Use](#use)
+- [Project structure](#project-structure)
+- [Explanations of functions and Answers to questions]
+- [License](#license)
+
+## Installation
+
+To install **Alcubierre**, follow these steps:
+
+1. Clone the GitHub repository:
+
+	```bash
+	$ git clone https://github.com/AntonyFrackowiak/Alcubierre.git
+	```
+
+2. Go to the package folder:
+
+	```bash
+	$ cd Alcubierre
+	```
+3. Go to the __main__.py folder
+	```bash
+	$ cd Program
+	```
+## Usage
+
+To launch one of the programs that corresponds to a particular section, simply enter in a command terminal:
+
+	```bash
+	$ python .
+	```
+In the terminal a message will be displayed: 
+
+	```bash
+	Choose an option:
+	1 - Caustic
+	2 - Newlagrange
+	3 - Neweulerian
+	Enter your choice (1, 2, 3): 
+	```
+
+Just enter the desired section for the corresponding program to run 
+	```bash
+	"1" or "2" or "3".
+	```
+
+## Project structure
+
+This project includes the following files:
+
+- **Program/**
+	-
+	- `__init__.py`: Module initialization file
+	- `__main__.py`: Program entry point
+
+- **docs/**: Documentation folder
+	- `LICENSE`: Software license file
+	- `README.md`: Software manual file
+
+## Function explanations
+
+1.
+
+-
+2.
+
+-
+
+3.
+
+-
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
 
 
-
-
-
-
-
-
+**************************************************************************************************************
 
 
 
@@ -19,7 +99,7 @@ Auteur :  Antony Frackowiak
 Master 2 de Cosmologie à l'université Claude Bernard Lyon 1. 
 
 **Alcubierre** 
-L'objectif de ce  
+L'objectif de ce 
 
 ## Table des matières
 
@@ -31,22 +111,22 @@ L'objectif de ce
 
 ## Installation
 
-Pour installer **T1 Filtrage adapté pour la détéction de signaux**, suivez ces étapes :
+Pour installer **Alcubierre**, suivez ces étapes :
 
 1. Clonez le dépôt GitHub :
    
     ```bash
-    $ git clone https://gitlab.in2p3.fr/antony.frackowiak/tp1-filtrage-adapte-pour-la-detection-de-signaux.git
+    $ git clone https://github.com/AntonyFrackowiak/Alcubierre.git
     ```
    
 2. Allez dans le dossier du package :
 
     ```bash
-    $ cd tp1-filtrage-adapte-pour-la-detection-de-signaux
+    $ cd Alcubierre
     ```
 3. Allez dans le dossier du __main__.py
 	```bash
-    $ cd TP1_Analyse_donnees
+    $ cd Program
     ```
 ## Utilisation
 
@@ -60,53 +140,44 @@ Dans le terminal un message s'affichera :
 
 	```bash
 	Choisissez une option :
-	1.1 - Section 1.1
-	1.2.3 - Section 1.2.3
-	2 - Section 2
-	Entrez votre choix (1.1, 1.2.3, 2) : 
+	1 - Caustic
+    2 - Newlagrange
+    3 - Neweulerian
+	Entrez votre choix (1, 2, 3) : 
 	```
 
 Il suffit de rentrer la section voulu pour que le programme correspondant s'exécute 
 	```bash
-	"1.1" ou "1.2.3" ou "2".
+	"1" ou "2" ou "3".
 	```
 
 ## Structure du projet
 
 Ce projet comprend les fichiers suivants :  
 
-- **TP1_Analyse_donnees/**  
-  - `Section1_1.py`     : Section 1.1, signal simple et bruit blanc gaussien
-  - `Section1_2et3.py`     : Section 1.2, signal complexe et bruit gaussien coloré et comparaison des outils développés avec des librairies dédiées
-  - `Section2_1_2_3.py`     : Section 2, application à des données LIGO
-  - `__init__.py`  : Fichier d'initialisation du module
-  - `__main__.py`  : Point d'entrée du programme
+- **Program/**  
+    - 
+    - `__init__.py`  : Fichier d'initialisation du module
+    - `__main__.py`  : Point d'entrée du programme
   
 - **docs/**                : Dossier contenant la documentation
-  - `conf.py`          : Fichier de configuration de la documentation
-  - `index.rst`        : Fichier d'index pour la documentation
-  - `module.rst`       : Documentation pour les modules
-  - `TP1_Analyse_donnees.rst`  : Documentation spécifique des sections
-- `setup.py`             : Fichier de setup du module
-- `setup.cfg`            : Complément du fichier setup.py
-- `LICENSE`              : Fichier de licence du logiciel
-- `README.md`            : Fichier manuel du logiciel
+    - `LICENSE`              : Fichier de licence du logiciel
+    - `README.md`            : Fichier manuel du logiciel
 
 
-## Explications des fonctions et Reponses aux questions
+## Explications des fonctions 
 
-1. Section 1.1 :
+1. 
 
 - 
-2. Section 1.2.3:
+2. 
 
 - 
 
-3. Section 2:
+3. 
 
 - 
 
 ## License
 
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
-
