@@ -1,6 +1,98 @@
 #English version
 
+# Program created as part of a Master's internship.
+Author: Antony Frackowiak  
+Master's Degree in Cosmology at Claude Bernard University Lyon 1.
 
+**Alcubierre**  
+The objective of this project is to...
+
+## Table of Contents
+
+- [Installation]
+- [Usage]
+- [Project Structure]
+- [License]
+
+## Installation
+
+To install **Alcubierre**, follow these steps:
+
+1. Clone the GitHub repository:
+   
+    ```bash
+    $ git clone https://gitlab.in2p3.fr/antony.frackowiak/tp1-filtrage-adapte-pour-la-detection-de-signaux.git
+    ```
+
+2. Navigate to the package folder:
+
+    ```bash
+    $ cd Alcubierre
+    ```
+
+3. Go into the folder containing `__main__.py`:
+	```bash
+    $ cd Program
+    ```
+
+## Usage
+
+To run any of the programs corresponding to a specific section, simply enter the following in the command terminal:
+
+	```bash
+	$ python .
+	```	
+
+In the terminal, the following message will appear: 
+
+	```bash
+	Choose an option:
+	1.1 - Section 1.1
+	1.2.3 - Section 1.2.3
+	2 - Section 2
+	Enter your choice (1.1, 1.2.3, 2): 
+	```
+
+Just type in the desired section number, for example: 
+	```bash
+	"1.1" or "1.2.3" or "2".
+	```
+
+## Project Structure
+
+This project includes the following files:  
+
+- **TP1_Analyse_donnees/**  
+  - `Section1_1.py`     : Section 1.1, simple signal and Gaussian white noise
+  - `Section1_2et3.py`     : Section 1.2, complex signal and colored Gaussian noise, and comparison of developed tools with dedicated libraries
+  - `Section2_1_2_3.py`     : Section 2, application to LIGO data
+  - `__init__.py`  : Module initialization file
+  - `__main__.py`  : Program entry point
+  
+- **docs/**                : Folder containing documentation
+  - `conf.py`          : Documentation configuration file
+  - `index.rst`        : Index file for the documentation
+  - `module.rst`       : Documentation for modules
+  - `TP1_Analyse_donnees.rst`  : Specific documentation for the sections
+- `setup.py`             : Module setup file
+- `setup.cfg`            : Configuration file for `setup.py`
+- `LICENSE`              : Software license file
+- `README.md`            : Software manual file
+
+
+## Function Explanations and Answers to Questions
+
+1. Section 1.1 :
+
+- 
+2. Section 1.2.3:
+
+- 
+
+
+## License
+
+This project is under the MIT license. See the LICENSE file for more details.
 
 
 
@@ -26,12 +118,11 @@ L'objectif de ce
 - [Installation](#installation)
 - [Utilisation](#utilisation)
 - [Structure du projet](#structure-du-projet)
-- [Explications des fonctions et Reponses aux questions]
 - [License](#license)
 
 ## Installation
 
-Pour installer **T1 Filtrage adapté pour la détéction de signaux**, suivez ces étapes :
+Pour installer **Alcubierre**, suivez ces étapes :
 
 1. Clonez le dépôt GitHub :
    
@@ -42,11 +133,11 @@ Pour installer **T1 Filtrage adapté pour la détéction de signaux**, suivez ce
 2. Allez dans le dossier du package :
 
     ```bash
-    $ cd tp1-filtrage-adapte-pour-la-detection-de-signaux
+    $ cd Alcubierre
     ```
 3. Allez dans le dossier du __main__.py
 	```bash
-    $ cd TP1_Analyse_donnees
+    $ cd Program
     ```
 ## Utilisation
 
@@ -75,20 +166,12 @@ Il suffit de rentrer la section voulu pour que le programme correspondant s'exé
 
 Ce projet comprend les fichiers suivants :  
 
-- **TP1_Analyse_donnees/**  
+- **Alcubierre/**  
   - `Section1_1.py`     : Section 1.1, signal simple et bruit blanc gaussien
-  - `Section1_2et3.py`     : Section 1.2, signal complexe et bruit gaussien coloré et comparaison des outils développés avec des librairies dédiées
-  - `Section2_1_2_3.py`     : Section 2, application à des données LIGO
   - `__init__.py`  : Fichier d'initialisation du module
   - `__main__.py`  : Point d'entrée du programme
   
 - **docs/**                : Dossier contenant la documentation
-  - `conf.py`          : Fichier de configuration de la documentation
-  - `index.rst`        : Fichier d'index pour la documentation
-  - `module.rst`       : Documentation pour les modules
-  - `TP1_Analyse_donnees.rst`  : Documentation spécifique des sections
-- `setup.py`             : Fichier de setup du module
-- `setup.cfg`            : Complément du fichier setup.py
 - `LICENSE`              : Fichier de licence du logiciel
 - `README.md`            : Fichier manuel du logiciel
 
@@ -100,11 +183,6 @@ Ce projet comprend les fichiers suivants :
 - 
 2. Section 1.2.3:
 
-- 
-
-3. Section 2:
-
-- 
 
 ## License
 
